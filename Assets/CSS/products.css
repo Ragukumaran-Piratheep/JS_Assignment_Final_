@@ -1,6 +1,8 @@
 img {
-    width: 60%;
-    padding: 25px;    
+    /* border: 1px solid; */
+    width: 50%;
+    /* padding: 15px;
+    margin: 10px;     */
 }
 
 .products {
@@ -21,7 +23,6 @@ img {
 
 .row {
     padding: 10px;
-    
 }
 
 .buttons {
@@ -31,11 +32,19 @@ img {
 
 .buttons > button{
     /* border: 2px dotted rgb(0,255,0); */
+    border: 1px solid rgb(52, 51, 51);
     padding: 7px;
     margin: 5px;
     background-color: white;
+    border-radius: 4px;
 }
 
 .buttons > button:hover{
-    background-color: greenyellow;
+    background-color: whitesmoke;
+}
+
+.active2 {
+    border: 2px dotted rgb(0, 255, 0) !important;
+    color: rgb(0, 255, 0) !important;
+    border-radius: 5px;
 }
