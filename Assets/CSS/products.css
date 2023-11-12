@@ -1,12 +1,41 @@
 img {
     width: 60%;
-    padding: 25px;
+    padding: 25px;    
+}
+
+.products {
+    text-align: center;
+    display: inline;
+    /* border: 2px dotted rgb(0,255,0); */
+    margin: 10px;
+}
+
+.products hr{
+    display: inline-block;
+    color: green;
+    width: 5vw;
+    border: 1px solid;
+    margin: 0.5rem;
+}
+
+
+.row {
+    padding: 10px;
     
 }
 
-.line{
-    width: 60px;
-    height: 25px;
-    color: #fb6705;
-    margin: auto;
+.buttons {
+    
+   text-align: center;
+}
+
+.buttons > button{
+    /* border: 2px dotted rgb(0,255,0); */
+    padding: 7px;
+    margin: 5px;
+    background-color: white;
+}
+
+.buttons > button:hover{
+    background-color: greenyellow;
 }
